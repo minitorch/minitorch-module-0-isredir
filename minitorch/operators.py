@@ -8,6 +8,7 @@ from typing import Callable, List
 #
 # Implementation of a prelude of elementary functions.
 
+
 # - mul
 def mul(a: float, b: float) -> float:
     return a * b
@@ -84,6 +85,7 @@ def inv(x: float) -> float:
 # - inv_back
 def inv_back(x: float, d: float) -> float:
     return -d / (x * x)
+
 
 # - relu_back
 def relu_back(x: float, d: float) -> float:
