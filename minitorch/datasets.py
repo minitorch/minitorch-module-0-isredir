@@ -79,5 +79,4 @@ def spiral(N: int) -> Graph:
     return Graph(N, X, y2)
 
 
-datasets = {'Simple': simple, 'Diag': diag, 'Split': split, 'Xor': xor,
-    'Circle': circle, 'Spiral': spiral}
+datasets = {'Simple': simple, 'Diag': diag, 'Split': split, 'Xor': xor, 'Circle': circle, 'Spiral': spiral}
